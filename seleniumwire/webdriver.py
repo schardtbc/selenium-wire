@@ -1,10 +1,10 @@
-from selenium.webdriver import Chrome as _Chrome
-from selenium.webdriver import ChromeOptions
-from selenium.webdriver import Edge as _Edge
-from selenium.webdriver import Firefox as _Firefox
-from selenium.webdriver import Remote as _Remote
-from selenium.webdriver import Safari as _Safari
-from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
+from seleniumrequests.webdriver import Chrome as _Chrome
+from seleniumrequests.webdriver import ChromeOptions
+from seleniumrequests.webdriver import Edge as _Edge
+from seleniumrequests.webdriver import Firefox as _Firefox
+from seleniumrequests.webdriver import Remote as _Remote
+from seleniumrequests.webdriver import Safari as _Safari
+from seleniumrequests.webdriver.common.desired_capabilities import DesiredCapabilities
 
 from . import backend
 from .inspect import InspectRequestsMixin
